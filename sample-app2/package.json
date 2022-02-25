@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "next lint",
     "test": "jest",
-    "dev": "node server.js",
+    "dev": "node server.js 8081",
     "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "cross-env NODE_ENV=production node server.js"
   },
